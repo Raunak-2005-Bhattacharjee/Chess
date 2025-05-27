@@ -79,6 +79,6 @@ io.on('connection', (uniquesocket) => {
     })
 })
 
-server.listen("https://chess-teal-xi.vercel.app/", () => {
+server.listen(3000, () => {
     console.log('Server is running on http://localhost:3000');
 });
