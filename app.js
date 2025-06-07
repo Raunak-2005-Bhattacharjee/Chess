@@ -4,8 +4,6 @@ import {Server} from 'socket.io';
 import {Chess} from 'chess.js';
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
-import { disconnect, title } from 'process';
-import { compareSync } from 'bcryptjs';
 
 const app = express();
 const server = http.createServer(app);
